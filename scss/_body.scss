@@ -1,0 +1,58 @@
+body{
+    font-family: 'roboto', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    h1{
+        color: #505050;
+        text-align: left;
+        margin-left: 20px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    h2{
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    h3{
+        color: $colorNaranja;
+        text-align: center;
+    }
+    p{
+        font-family: 'roboto', sans-serif;
+        font-weight: lighter;
+        font-style: normal;
+        text-align: left;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        word-spacing: 2px; 
+        color: rgb(50, 50, 50);
+    }
+    img{
+        height: 20%;
+        border-radius: 3px;
+    }
+    .containerPrincipal{
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        justify-items: stretch;
+    }
+    .containerPrincipal header{
+        grid-area: header;
+    }
+    .containerPrincipal main{
+        grid-area: main;
+    }
+    .containerPrincipal footer{
+        grid-area: footer;
+    }
+    
+}

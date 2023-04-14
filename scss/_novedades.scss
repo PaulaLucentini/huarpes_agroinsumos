@@ -1,0 +1,30 @@
+/*NOVEDADES*/
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1000px;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: center;
+}
+section.grid div{
+    width: 200px;
+    height: 1000px;
+    margin: 5px;
+    margin-top: 20px;
+}
+section.grid div img{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #505050;
+}
+section.grid div h3{
+    padding: 10px;
+}
+section.grid div p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}

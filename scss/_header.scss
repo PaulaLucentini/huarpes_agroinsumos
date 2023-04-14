@@ -1,0 +1,27 @@
+header{
+    padding: 3.125rem;
+    height: 7rem;
+    background-color: #ffff;
+    nav{
+        ul{list-style-type: none;
+            li{
+            display: inline-block;
+            margin-top: 0.9375rem;
+            margin-right: 5px;
+            }
+            a{ 
+            text-decoration: none;
+            color:rgb(50, 50, 50);
+            padding: 10px;         
+            }
+        a:hover{
+            color: white;
+            background-color: $colorVerde ;
+            border-radius: 1.25rem;
+        }  
+        .button.btn-outline-success:hover {
+            background-color: rgb(67, 117, 105);
+        }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/*CSS SERVICIOS*/
+
+div.flexServicios img{
+    margin-top: 3.75rem;
+}
+div.flexServicios p{
+    margin-bottom: 3.75rem;
+    width: 80%;
+}
+
+.flexServicios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(67, 117, 105);
+}
+div.col h2{
+    border: 2px solid rgb(67, 117, 105);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(67, 117, 105);
+    margin-top: 30px;
+    color: #E79C21;
+    height: 100px;
+    text-align: center;
+}
+.gridServicios{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}

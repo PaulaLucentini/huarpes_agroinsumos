@@ -1,0 +1,46 @@
+footer{
+    height: 15.625rem;
+}
+.logo{
+    height: 100%;   
+}
+
+
+div.col p{
+    color: rgb(67, 117, 105);
+} 
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.logoflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flexFooter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 3.125rem;
+}
+.redesFlex{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 60%;
+    margin-top: 3.125rem;
+}
+div.redesFlex img{
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+footer h3{
+    color: #E79C21;
+}

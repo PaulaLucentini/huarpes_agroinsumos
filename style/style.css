@@ -1,0 +1,487 @@
+header {
+  padding: 3.125rem;
+  height: 7rem;
+  background-color: white;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-top: 0.9375rem;
+  margin-right: 5px;
+}
+header nav ul a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  padding: 10px;
+}
+header nav ul a:hover {
+  color: white;
+  background-color: rgb(67, 117, 105);
+  border-radius: 1.25rem;
+}
+header nav ul .button.btn-outline-success:hover {
+  background-color: rgb(67, 117, 105);
+}
+
+body {
+  font-family: "roboto", Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body h1 {
+  color: #505050;
+  text-align: left;
+  margin-left: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
+body h2 {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+body h3 {
+  color: #E79C21;
+  text-align: center;
+}
+body p {
+  font-family: "roboto", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: rgb(50, 50, 50);
+}
+body img {
+  height: 20%;
+  border-radius: 3px;
+}
+body .containerPrincipal {
+  display: grid;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  justify-items: stretch;
+}
+body .containerPrincipal header {
+  grid-area: header;
+}
+body .containerPrincipal main {
+  grid-area: main;
+}
+body .containerPrincipal footer {
+  grid-area: footer;
+}
+
+footer {
+  height: 15.625rem;
+}
+
+.logo {
+  height: 100%;
+}
+
+div.col p {
+  color: rgb(67, 117, 105);
+}
+
+.pie {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.logoflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flexFooter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 3.125rem;
+}
+
+.redesFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 60%;
+  margin-top: 3.125rem;
+}
+
+div.redesFlex img {
+  height: 3.75rem;
+  width: 3.75rem;
+}
+
+footer h3 {
+  color: #E79C21;
+}
+
+main.flexContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  height: 1000px;
+}
+
+main p {
+  font-family: "roboto", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: center;
+  font-size: 28px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: white;
+  border: 0px;
+  margin-top: 80px;
+}
+
+/*CSS CONTACTO*/
+main.gridContacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-image: url(../img/paisajes/tractor.JPG);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.flexForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+form.form div {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px #505050;
+  border: 1px solid #505050;
+}
+
+legend {
+  margin-top: 30px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  padding: 18px 20px;
+  margin: 0 0 12px 0;
+  border: 0;
+  outline: none;
+  color: rgb(50, 50, 50);
+  font-family: "roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 3px;
+  max-width: 100%;
+  background: none;
+}
+
+.submitform {
+  display: inline-block;
+  font: 16px/30px "roboto", sans-serif;
+  padding: 9px 16px;
+  margin: 0 3px 6px 0;
+  background: #e69b33;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  height: auto;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+}
+
+/*NOVEDADES*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1000px;
+  justify-content: center;
+  align-items: stretch;
+  justify-items: center;
+}
+
+section.grid div {
+  width: 200px;
+  height: 1000px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+section.grid div img {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #505050;
+}
+
+section.grid div h3 {
+  padding: 10px;
+}
+
+section.grid div p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+/*CSS SERVICIOS*/
+div.flexServicios img {
+  margin-top: 3.75rem;
+}
+
+div.flexServicios p {
+  margin-bottom: 3.75rem;
+  width: 80%;
+}
+
+.flexServicios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: rgb(67, 117, 105);
+}
+
+div.col h2 {
+  border: 2px solid rgb(67, 117, 105);
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(67, 117, 105);
+  margin-top: 30px;
+  color: #E79C21;
+  height: 100px;
+  text-align: center;
+}
+
+.gridServicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+/*PRODUCTOS*/
+main.flexProductos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: 4px solid white;
+}
+
+div.productos h2 {
+  margin-top: 3px;
+  color: #E79C21;
+}
+
+div.productos img {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+div.productos p {
+  margin-bottom: 30px;
+}
+
+/*RESPONSIVE @MEDIA*/
+@media (min-width: 300px) {
+  /*NOSOTROS*/
+  main p {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 10px;
+  }
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+  /*CONTACTO*/
+  main.gridContacto {
+    align-items: center;
+    background-image: none;
+    background-size: 0;
+    background-color: rgb(67, 117, 105);
+  }
+  form.form div {
+    margin: 5px;
+  }
+  legend {
+    margin-top: 10px;
+  }
+  input[type=text],
+  input[type=email],
+  input::placeholder,
+  textarea::placeholder,
+  textarea {
+    padding: 10px;
+    margin: 0;
+    font-size: 9px;
+    line-height: 10px;
+    color: #ffffff;
+  }
+  .submitform {
+    font: 10px;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+  }
+  /*NOVEDADES*/
+  .grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  section.grid div {
+    height: 100%;
+    margin: 5px;
+    margin-top: 30px;
+  }
+  section.grid div img {
+    height: 100px;
+    margin-left: 50px;
+  }
+  /*SERVICIOS*/
+  div.col h2 {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+  }
+  .row-cols-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 560px) {
+  /*NOSOTROS*/
+  main p {
+    font-size: large;
+  }
+  /*CONTACTO*/
+  form.form div {
+    margin: 10px;
+  }
+  legend {
+    margin-top: 10px;
+  }
+  input[type=text],
+  input[type=email],
+  input::placeholder,
+  textarea::placeholder,
+  textarea {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .submitform {
+    font: 14px;
+    padding: 10px;
+  }
+  /*NOVEDADES*/
+  .grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  section.grid div {
+    height: 100%;
+    margin-top: 50px;
+  }
+  section.grid div img {
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  /*SERVICIOS*/
+  div.col h2 {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+  }
+  .row-cols-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  /*NOSOTROS-INDEX*/
+  main p {
+    font-size: 18px;
+  }
+  /*CONTACTO*/
+  input[type=text],
+  input[type=email],
+  input::placeholder,
+  textarea::placeholder,
+  textarea {
+    font-size: 18px;
+    line-height: 15px;
+  }
+  .submitform {
+    font: 18px;
+  }
+  /*NOVEDADES*/
+  .grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  section.grid div {
+    width: 90%;
+    margin-top: 20px;
+  }
+  section.grid div img {
+    height: 100px;
+    margin-left: 40px;
+  }
+  /*SERVICIOS*/
+  div.col h2 {
+    height: 100px;
+    font-size: 18px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

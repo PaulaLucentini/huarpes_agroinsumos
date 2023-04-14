@@ -1,0 +1,205 @@
+/*RESPONSIVE @MEDIA*/
+
+@media (min-width: 300px){
+
+    /*NOSOTROS*/
+    main p{
+        font-size: 10px; 
+        font-weight: normal;
+        font-style:normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        margin-top: 10px;   
+    }
+    h2{
+        padding: 0;
+        margin: 0;   
+    }
+
+    /*CONTACTO*/
+    main.gridContacto{
+        align-items: center;
+        background-image: none;
+        background-size: 0;
+        background-color: rgb(67, 117, 105);
+    }
+    form.form div{
+        margin: 5px;
+    }
+    legend{
+        margin-top: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input::placeholder,
+    textarea::placeholder,
+    textarea {
+        padding: 10px;
+        margin: 0;
+        font-size: 9px;
+        line-height: 10px;
+        color: #ffffff;
+    }
+
+    .submitform {
+        font: 10px;
+        padding: 5px;
+        margin: 0;
+        width: 100%; 
+    }
+
+    /*NOVEDADES*/
+    .grid{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    section.grid div{
+
+        height: 100%;
+        margin: 5px;
+        margin-top: 30px;
+    }
+    section.grid div img{
+        height: 100px;
+        margin-left: 50px;
+        
+    }
+
+    /*SERVICIOS*/
+
+    div.col h2{
+        width: 200px;
+        height: 30px;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+    .row-cols-4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 560px){
+    
+    /*NOSOTROS*/
+    main p{
+        font-size: large;  
+        }
+
+    /*CONTACTO*/
+    
+    form.form div{
+        margin: 10px;
+    }
+    legend{
+        margin-top: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input::placeholder,
+    textarea::placeholder,
+    textarea {
+        padding: 20px;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .submitform {
+        font: 14px;
+        padding: 10px;
+    }
+    /*NOVEDADES*/
+    .grid{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    section.grid div{
+        
+        height: 100%;
+        margin-top: 50px;
+        
+    }
+    section.grid div img{
+        height: 200px;
+        margin-bottom: 20px; 
+        margin-left: 0px;
+    }
+    /*SERVICIOS*/
+
+    div.col h2{
+        width: 200px;
+        height: 30px;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+    .row-cols-4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px){
+
+    /*NOSOTROS-INDEX*/
+
+    main p{
+        font-size: 18px;   
+        }
+    
+    /*CONTACTO*/
+
+    input[type="text"],
+    input[type="email"],
+    input::placeholder,
+    textarea::placeholder,
+    textarea {
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+    .submitform {
+        font: 18px;
+    }
+    /*NOVEDADES*/
+    .grid{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    section.grid div{
+        
+        width: 90%;
+        margin-top: 20px;
+        
+    }
+    section.grid div img{
+        height: 100px; 
+        margin-left: 40px;
+    }
+    /*SERVICIOS*/
+
+    div.col h2{
+        height: 100px;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
